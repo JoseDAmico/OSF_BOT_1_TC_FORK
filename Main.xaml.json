@@ -1,0 +1,93 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "A_pass_sap",
+      "DisplayName": "A_pass_sap",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Initial@12345678.",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "A_cliente_sap",
+      "DisplayName": "A_cliente_sap",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "100",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "A_username_sap",
+      "DisplayName": "A_username_sap",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "AQUISPER",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "A_fecha",
+      "DisplayName": "A_fecha",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "30.04.2024",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "A_usd",
+      "DisplayName": "A_usd",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3.8",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "A_to_email_resultado",
+      "DisplayName": "A_to_email_resultado",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "jose@automationui.com",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "A_server_sap",
+      "DisplayName": "A_server_sap",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "OSF - QS4",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
