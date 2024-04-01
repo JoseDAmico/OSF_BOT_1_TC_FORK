@@ -137,7 +137,7 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="795,7205" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="795,7245" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="out_status_var__message_type" />
       <Variable x:TypeArguments="s:String[]" Name="out_status_var__message_data" />
@@ -150,7 +150,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: sbs.gob.pe/app/pp/sistip_portal/paginas/publicacion/tipocambiopromedio.aspx" sap:VirtualizedContainerService.HintSize="733,1209" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="8d4bbabb-83db-409b-90af-e2e374726817" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: sbs.gob.pe/app/pp/sistip_portal/paginas/publicacion/tipocambiopromedio.aspx" sap:VirtualizedContainerService.HintSize="733,1249" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="8d4bbabb-83db-409b-90af-e2e374726817" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -164,10 +164,10 @@
             </sap:WorkflowViewStateService.ViewState>
             <uix:NGetText DisplayName="Get Text '3.721'" sap:VirtualizedContainerService.HintSize="450,197" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="8d4bbabb-83db-409b-90af-e2e374726817" TextString="[A_usd]" Version="V3">
               <uix:NGetText.Target>
-                <uix:TargetAnchorable BrowserURL="https://www.sbs.gob.pe/app/pp/sistip_portal/paginas/publicacion/tipocambiopromedio.aspx" CvTextArea="807, 369, 28, 11" CvType="AnyWordGroup" DesignTimeRectangle="801, 365, 150, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='rgMasterTable' tableRow='2' tag='TABLE' /&gt;&lt;webctrl class='APLI_fila2' tableCol='3' tableRow='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl class='rgMasterTable' tag='TABLE' /&gt;&lt;webctrl class='APLI_fila2' type='' tag='TD' /&gt;" Guid="cf0b83fc-c92e-447e-a751-baf98fbb4383" InformativeScreenshot="c9b1939d4c63f2d66aa01e35412db6f1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='sbs.gob.pe/app/pp/sistip_portal/paginas/publicacion/tipocambiopromedio.aspx' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                <uix:TargetAnchorable BrowserURL="https://www.sbs.gob.pe/app/pp/sistip_portal/paginas/publicacion/tipocambiopromedio.aspx" CvTextArea="681, 403, 30, 11" CvType="AnyWordGroup" DesignTimeRectangle="675, 399, 150, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='rgMasterTable' tableRow='2' tag='TABLE' /&gt;&lt;webctrl class='APLI_fila2' tableCol='3' tableRow='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl class='rgMasterTable' tag='TABLE' /&gt;&lt;webctrl class='APLI_fila2' type='' tag='TD' /&gt;" Guid="1b11f8c9-5e79-4b8b-bb53-4d96edc39479" InformativeScreenshot="b9662fb9b69a4d1d57f8f93c0327ba38.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='sbs.gob.pe/app/pp/sistip_portal/paginas/publicacion/tipocambiopromedio.aspx' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CvTextArea="807, 369, 28, 11" CvTextArgument="3.721" CvType="Text" DesignTimeRectangle="807, 369, 28, 11" ElementType="Text" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="720, 383, 59, 13" CvTextArgument="VENTA (S/)" CvType="Text" DesignTimeRectangle="675, 378, 150, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl class='rgMasterTable' tableRow='2' tag='TABLE' /&gt;&lt;webctrl aaname='VENTA (S/)' tableRow='1' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl class='rgMasterTable' tag='TABLE' /&gt;&lt;webctrl aaname='VENTA (S/)' type='' tag='TH' class='rgHeader APLI_fila1' check:innerText='VENTA (S/)' /&gt;" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
