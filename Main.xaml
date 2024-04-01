@@ -196,7 +196,7 @@
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,166" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Tipo de cambio rescatado = &quot;+ A_usd]" />
+                  <ui:LogMessage DisplayName="Log Message tipo de cambio" sap:VirtualizedContainerService.HintSize="334,141" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Tipo de cambio rescatado =  &quot;+ A_usd]" />
                 </Sequence>
               </If.Else>
             </If>
