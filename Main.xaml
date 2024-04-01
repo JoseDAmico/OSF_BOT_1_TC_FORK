@@ -137,7 +137,7 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="795,7245" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="795,7205" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="out_status_var__message_type" />
       <Variable x:TypeArguments="s:String[]" Name="out_status_var__message_data" />
@@ -150,7 +150,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: sbs.gob.pe/app/pp/sistip_portal/paginas/publicacion/tipocambiopromedio.aspx" sap:VirtualizedContainerService.HintSize="733,1249" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="8d4bbabb-83db-409b-90af-e2e374726817" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: sbs.gob.pe/app/pp/sistip_portal/paginas/publicacion/tipocambiopromedio.aspx" sap:VirtualizedContainerService.HintSize="733,1209" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="8d4bbabb-83db-409b-90af-e2e374726817" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -196,7 +196,7 @@
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message tipo de cambio" sap:VirtualizedContainerService.HintSize="334,141" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Tipo de cambio rescatado =  &quot;+ A_usd]" />
+                  <ui:LogMessage DisplayName="Log Message tipo de cambio" sap:VirtualizedContainerService.HintSize="354,166" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Tipo de cambio rescatado =  &quot;+ A_usd]" />
                 </Sequence>
               </If.Else>
             </If>
@@ -283,7 +283,7 @@
               <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="575,219" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(tab)][u(hk)]" Version="V3" />
               <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="575,265" sap2010:WorkflowViewState.IdRef="NTypeInto_4" Text="PEN" Version="V3" />
               <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="575,219" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)][d(ctrl)]s[u(ctrl)][u(hk)]" Version="V3" />
-              <ucas:ReadStatusbar MessageId="{x:Null}" MessageNumber="{x:Null}" ContinueOnError="True" DisplayName="Read Status Bar 'Statusbar Los'" sap:VirtualizedContainerService.HintSize="575,306" sap2010:WorkflowViewState.IdRef="ReadStatusbar_1" MessageData="[out_status_var__message_data]" MessageText="[out_status_var_message_text]" MessageType="[out_status_var__message_type]">
+              <ucas:ReadStatusbar MessageId="{x:Null}" MessageNumber="{x:Null}" ContinueOnError="True" DisplayName="Lectura de Status Bar" sap:VirtualizedContainerService.HintSize="575,306" sap2010:WorkflowViewState.IdRef="ReadStatusbar_1" MessageData="[out_status_var__message_data]" MessageText="[out_status_var_message_text]" MessageType="[out_status_var__message_type]">
                 <ucas:ReadStatusbar.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e40da06d-2722-4063-bb79-79ccafed291c" InformativeScreenshot="74af9bbf38f198159697e54e8c7a7701" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Entradas nuevas: Resumen entradas añadidas' /&gt;&lt;sap id='sbar' /&gt;">
                     <ui:Target.TimeoutMS>
