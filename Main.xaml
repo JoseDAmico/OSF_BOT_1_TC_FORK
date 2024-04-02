@@ -12,7 +12,7 @@
     <x:Null />
   </VisualBasic.Settings>
   <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
-  <sap:VirtualizedContainerService.HintSize>785,7310</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>970,7694</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -137,7 +137,7 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="812,7473" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="812,7629" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="out_status_var__message_type" />
       <Variable x:TypeArguments="s:String[]" Name="out_status_var__message_data" />
@@ -148,40 +148,41 @@
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: sbs.gob.pe/app/pp/sistip_portal/paginas/publicacion/tipocambiopromedio.aspx" sap:VirtualizedContainerService.HintSize="750,1256" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="8d4bbabb-83db-409b-90af-e2e374726817" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: sbs.gob.pe/app/pp/sistip_portal/paginas/publicacion/tipocambiopromedio.aspx" sap:VirtualizedContainerService.HintSize="750,1249" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="8d4bbabb-83db-409b-90af-e2e374726817" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,958" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,952" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NGetText DisplayName="Get Text '3.721'" sap:VirtualizedContainerService.HintSize="450,198" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="8d4bbabb-83db-409b-90af-e2e374726817" TextString="[A_usd]" Version="V3">
+            <uix:NGetText DisplayName="Get Text '3.721'" sap:VirtualizedContainerService.HintSize="450,197" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="8d4bbabb-83db-409b-90af-e2e374726817" TextString="[A_usd]" Version="V3">
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="https://www.sbs.gob.pe/app/pp/sistip_portal/paginas/publicacion/tipocambiopromedio.aspx" CvTextArea="681, 403, 30, 11" CvType="AnyWordGroup" DesignTimeRectangle="675, 399, 150, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='rgMasterTable' tableRow='2' tag='TABLE' /&gt;&lt;webctrl class='APLI_fila2' tableCol='3' tableRow='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl class='rgMasterTable' tag='TABLE' /&gt;&lt;webctrl class='APLI_fila2' type='' tag='TD' /&gt;" Guid="1b11f8c9-5e79-4b8b-bb53-4d96edc39479" InformativeScreenshot="b9662fb9b69a4d1d57f8f93c0327ba38.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='sbs.gob.pe/app/pp/sistip_portal/paginas/publicacion/tipocambiopromedio.aspx' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CvTextArea="720, 383, 59, 13" CvTextArgument="VENTA (S/)" CvType="Text" DesignTimeRectangle="675, 378, 150, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl class='rgMasterTable' tableRow='2' tag='TABLE' /&gt;&lt;webctrl aaname='VENTA (S/)' tableRow='1' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl class='rgMasterTable' tag='TABLE' /&gt;&lt;webctrl aaname='VENTA (S/)' type='' tag='TH' class='rgHeader APLI_fila1' check:innerText='VENTA (S/)' /&gt;" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NGetText.Target>
             </uix:NGetText>
-            <If Condition="[A_usd is Nothing]" sap:VirtualizedContainerService.HintSize="450,673" sap2010:WorkflowViewState.IdRef="If_2">
+            <If Condition="[A_usd is Nothing]" sap:VirtualizedContainerService.HintSize="450,668" sap2010:WorkflowViewState.IdRef="If_2">
               <If.Then>
-                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,256" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,254" sap2010:WorkflowViewState.IdRef="Sequence_9">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="Estimado Usuario:  No se obtuvo el tipo de cambio" DisplayName="Send SMTP Mail Message" Email="app@automationui.com" EnableSSL="True" From="app@automationui.com" sap:VirtualizedContainerService.HintSize="354,171" sap2010:WorkflowViewState.IdRef="SendMail_3" IgnoreCRL="False" IsBodyHtml="False" Name="Automation" Password="nryr hztv bdrk merf" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Advertencia: Tipo de cambio erroneo" To="[A_to_email_resultado]">
+                  <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="Estimado Usuario:  No se obtuvo el tipo de cambio" DisplayName="Send SMTP Mail Message" Email="app@automationui.com" EnableSSL="True" From="app@automationui.com" sap:VirtualizedContainerService.HintSize="354,169" sap2010:WorkflowViewState.IdRef="SendMail_3" IgnoreCRL="False" IsBodyHtml="False" Name="Automation" Password="nryr hztv bdrk merf" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Advertencia: Tipo de cambio erroneo" To="[A_to_email_resultado]">
                     <ui:SendMail.Files>
                       <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                     </ui:SendMail.Files>
@@ -189,14 +190,14 @@
                 </Sequence>
               </If.Then>
               <If.Else>
-                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,253" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="Sequence_10">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message tipo de cambio" sap:VirtualizedContainerService.HintSize="354,168" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Tipo de cambio rescatado =  &quot;+ A_usd]" />
+                  <ui:LogMessage DisplayName="Log Message tipo de cambio" sap:VirtualizedContainerService.HintSize="354,166" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Tipo de cambio rescatado =  &quot;+ A_usd]" />
                 </Sequence>
               </If.Else>
             </If>
@@ -213,20 +214,21 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ucas:Logon Window="{x:Null}" ConnectionName="[A_server_sap]" DelayBetweenRetries="500" DisplayName="SAP Logon" sap:VirtualizedContainerService.HintSize="750,180" sap2010:WorkflowViewState.IdRef="Logon_1" Retries="5" SAPLogonPath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: SAP" sap:VirtualizedContainerService.HintSize="750,5949" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="01f86c9b-47a4-490e-8114-219e2c560255" Version="V2">
+    <ui:LogMessage DisplayName="Log Message tipo de cambio" sap:VirtualizedContainerService.HintSize="750,181" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Tipo de cambio rescatado =  &quot;+ A_usd]" />
+    <ucas:Logon Window="{x:Null}" ConnectionName="[A_server_sap]" DelayBetweenRetries="500" DisplayName="SAP Logon" sap:VirtualizedContainerService.HintSize="750,178" sap2010:WorkflowViewState.IdRef="Logon_1" Retries="5" SAPLogonPath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: SAP" sap:VirtualizedContainerService.HintSize="750,5933" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="01f86c9b-47a4-490e-8114-219e2c560255" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="716,5633" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="716,5619" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ucas:Login SecurePassword="{x:Null}" Window="{x:Null}" Client="[A_cliente_sap]" DisplayName="SAP Login" sap:VirtualizedContainerService.HintSize="654,394" sap2010:WorkflowViewState.IdRef="Login_1" IsSecure="False" Language="ES" MultiLogonOptionToChoose="Single" Password="[A_pass_sap]" Timeout="5000" Username="[A_username_sap]">
+            <ucas:Login SecurePassword="{x:Null}" Window="{x:Null}" Client="[A_cliente_sap]" DisplayName="SAP Login" sap:VirtualizedContainerService.HintSize="654,389" sap2010:WorkflowViewState.IdRef="Login_1" IsSecure="False" Language="ES" MultiLogonOptionToChoose="Single" Password="[A_pass_sap]" Timeout="5000" Username="[A_username_sap]">
               <ucas:Login.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="4fcfa8b1-9896-49ea-b6c0-58285b92c28e">
                   <ui:Target.TimeoutMS>
@@ -238,13 +240,13 @@
                 </ui:Target>
               </ucas:Login.Target>
             </ucas:Login>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="654,4974" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="654,4965" sap2010:WorkflowViewState.IdRef="Sequence_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ucas:CallTransaction DisplayName="Call Transaction 'saplogon.exe SAP'" sap:VirtualizedContainerService.HintSize="592,201" sap2010:WorkflowViewState.IdRef="CallTransaction_1" Transaction="OB08">
+              <ucas:CallTransaction DisplayName="Call Transaction 'saplogon.exe SAP'" sap:VirtualizedContainerService.HintSize="592,200" sap2010:WorkflowViewState.IdRef="CallTransaction_1" Transaction="OB08">
                 <ucas:CallTransaction.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="14c94a03-caf8-4e0d-a8a3-abfb42e56221" InformativeScreenshot="0876bd4ae96c6c15db66bda07c80a2a9">
                     <ui:Target.TimeoutMS>
@@ -256,26 +258,26 @@
                   </ui:Target>
                 </ucas:CallTransaction.Target>
               </ucas:CallTransaction>
-              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="592,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" Shortcuts="[d(hk)][k(f5)][u(hk)]" Version="V3" />
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'CTextField TCot'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="592,259" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="01f86c9b-47a4-490e-8114-219e2c560255" Text="M" Version="V3">
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="592,219" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" Shortcuts="[d(hk)][k(f5)][u(hk)]" Version="V3" />
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'CTextField TCot'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="592,258" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="01f86c9b-47a4-490e-8114-219e2c560255" Text="M" Version="V3">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable DesignTimeRectangle="44, 181, 81, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;sap colTooltip='Tipo de cotización' id='usr/tblSAPL0SAPTCTRL_V_TCURR' tableRow='0' /&gt;" FuzzySelectorArgument="&lt;sap colTooltip='Tipo de cotización' id='usr/tblSAPL0SAPTCTRL_V_TCURR' /&gt;" Guid="45ad34e9-dd2c-4902-9454-77be94d778cd" InformativeScreenshot="bc78420f48219d448110de961cf20a4e.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Entradas nuevas: Resumen entradas añadidas' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
                 </uix:NTypeInto.Target>
               </uix:NTypeInto>
-              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="592,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][k(tab)][u(hk)]" Version="V3" />
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'CTextField Válido de'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="592,259" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="01f86c9b-47a4-490e-8114-219e2c560255" Text="[A_fecha]" Version="V3">
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="592,219" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][k(tab)][u(hk)]" Version="V3" />
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'CTextField Válido de'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="592,258" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="01f86c9b-47a4-490e-8114-219e2c560255" Text="[A_fecha]" Version="V3">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable DesignTimeRectangle="77, 181, 74, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;sap colTooltip='Válido de' id='usr/tblSAPL0SAPTCTRL_V_TCURR' tableRow='0' /&gt;" FuzzySelectorArgument="&lt;sap colTooltip='Válido de' id='usr/tblSAPL0SAPTCTRL_V_TCURR' /&gt;" Guid="a2a687f8-a6a7-452a-9278-2be118d8264a" InformativeScreenshot="19efb089fe365a05cd2148772a015c04.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Entradas nuevas: Resumen entradas añadidas' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
                 </uix:NTypeInto.Target>
               </uix:NTypeInto>
-              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="592,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V3" />
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'CTextField De'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="592,259" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="01f86c9b-47a4-490e-8114-219e2c560255" Text="USD" Version="V3">
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="592,219" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V3" />
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'CTextField De'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="592,258" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="01f86c9b-47a4-490e-8114-219e2c560255" Text="USD" Version="V3">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable DesignTimeRectangle="377, 181, 39, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;sap colTooltip='Moneda procedencia' id='usr/tblSAPL0SAPTCTRL_V_TCURR' tableRow='0' /&gt;" FuzzySelectorArgument="&lt;sap colTooltip='Moneda procedencia' id='usr/tblSAPL0SAPTCTRL_V_TCURR' /&gt;" Guid="c3491f3e-ccd8-48e8-9327-ac54f5773386" InformativeScreenshot="fa881615e3b3e7fa19eefe92120c6f5a.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Entradas nuevas: Resumen entradas añadidas' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
                 </uix:NTypeInto.Target>
               </uix:NTypeInto>
-              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="592,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(tab)][u(hk)]" Version="V3" />
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TextField Cotiz.di.'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="592,259" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="01f86c9b-47a4-490e-8114-219e2c560255" Text="[A_usd]" Version="V3">
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="592,219" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(tab)][u(hk)]" Version="V3" />
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TextField Cotiz.di.'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="592,258" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="01f86c9b-47a4-490e-8114-219e2c560255" Text="[A_usd]" Version="V3">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable DesignTimeRectangle="443, 181, 81, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;sap colTooltip='T/C cotizado directamente' id='usr/tblSAPL0SAPTCTRL_V_TCURR' tableRow='0' /&gt;" FuzzySelectorArgument="&lt;sap colTooltip='T/C cotizado directamente' id='usr/tblSAPL0SAPTCTRL_V_TCURR' /&gt;" Guid="b4f6e473-0f11-43e4-bd7b-3394b48c2cff" InformativeScreenshot="a6e71f87ca481c657f29b69a52ec54de.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Entradas nuevas: Resumen entradas añadidas' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
                 </uix:NTypeInto.Target>
