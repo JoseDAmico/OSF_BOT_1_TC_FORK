@@ -449,7 +449,7 @@
                                           <OutArgument x:TypeArguments="x:String">[cuerpo]</OutArgument>
                                         </ui:AssignOperation.To>
                                         <ui:AssignOperation.Value>
-                                          <InArgument x:TypeArguments="x:String" xml:space="preserve">["Estimado Usuario: " +  "    No pudo ingresar el valor del tipo de cambio por el siguiente motivo:  " + out_status_var_message_text]</InArgument>
+                                          <InArgument x:TypeArguments="x:String" xml:space="preserve">["Estimado Usuario: " +  "    No se pudo ingresar el valor del tipo de cambio por el siguiente motivo:  " + out_status_var_message_text]</InArgument>
                                         </ui:AssignOperation.Value>
                                       </ui:AssignOperation>
                                     </scg:List>
