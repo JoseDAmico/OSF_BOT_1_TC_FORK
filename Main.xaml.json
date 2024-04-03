@@ -88,6 +88,18 @@
       "IsPrincipal": true,
       "ArgumentType": 0,
       "DataSourceItems": null
+    },
+    {
+      "Name": "A_path_sap_gui",
+      "DisplayName": "A_path_sap_gui",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "C:\\Program Files\\SAP\\FrontEnd\\SAPGUI\\saplogon.exe",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
     }
   ]
 }
